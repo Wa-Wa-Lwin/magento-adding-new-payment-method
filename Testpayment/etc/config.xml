@@ -7,7 +7,7 @@
                 <!-- You can use another methor like capture  -->
                 <model>Test\Testpayment\Model\PaymentMethod</model>
                 <active>1</active>
-                <title>Test Payment</title>
+                <title>Test Payment 123 OKOKO</title>
                 <order_status>pending_payment</order_status><!-- set default order status-->
             </testpayment>
         </payment>

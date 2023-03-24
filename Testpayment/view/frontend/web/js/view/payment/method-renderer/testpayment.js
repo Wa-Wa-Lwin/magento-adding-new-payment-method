@@ -8,7 +8,12 @@ define(
         return Component.extend({
             defaults: {
                 template: 'Test_Testpayment/payment/testpayment'
+            },
+
+            getInstructions: function () {
+                return window.checkoutConfig.payment.instructions[this.item.method];
             }
+
         });
     }
 );
